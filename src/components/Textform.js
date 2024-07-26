@@ -46,7 +46,7 @@ export default function Textform(props) {
       <div className={`container bg-${props.mode === 'dark' ? 'gray' : 'white'}`}>
         <h2>{props.label}</h2>
         <div className="mb-3">
-          <label htmlFor="text" className="form-label">Enter your Text</label>
+          <label htmlFor="text" className="form-label"></label>
           <textarea className="form-control" style={{ backgroundColor: props.mode === 'dark' ? '#13466e' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }} placeholder='Enter your Text' value={text} onChange={handleOnChange} id="text" rows="7"></textarea>
         </div>
         <button className='btn btn-primary mx-2 my-2' onClick={upperCase}>UpperCase</button>

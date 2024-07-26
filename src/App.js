@@ -47,7 +47,7 @@ function App() {
           {/* <Route path="/about" element={<About mode={mode}/>}></Route> */}
 
           {/* <Route path='/' element={<Textform showAlert={showAlert} label="Enter your Text" mode={mode} />}></Route> */}
-          <Textform showAlert={showAlert} label="Enter your Text" mode={mode} />
+          <Textform showAlert={showAlert} label="Enter the text to analyze below" mode={mode} />
         {/* </Routes> */}
     {/* </Router> */}
 
